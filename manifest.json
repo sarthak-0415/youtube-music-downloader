@@ -8,6 +8,18 @@
   "permissions": [
     "tabs", "http://*/*", "https://*/*"
   ],
+  "commands": 
+  	{
+  	 	"_execute_browser_action": {
+	        "suggested_key": {
+	        	"default": "Ctrl+Shift+D",
+				"windows": "Ctrl+Shift+D",
+				"mac": "Command+Shift+D",
+				"chromeos": "Ctrl+Shift+D",
+				"linux": "Ctrl+Shift+D"
+	        }
+	    }
+  	},
   "content_scripts": [
     {
       "matches": [ 

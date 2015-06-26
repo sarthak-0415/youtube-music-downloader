@@ -8,6 +8,7 @@ v 0.1
 v 0.2 (to be coded)
 * one click download.
 * check for download button to appear.
+* add support for keyboard to call the extension
 
 Flow of data :
 * click on extension button to call ```background.js```
@@ -17,4 +18,4 @@ Flow of data :
 * ```download.js``` fetches url from the variable and insert it into the text box and clicks the submit button
 
 not working :
-* wait for download button to appear and click.
+* wait for download button to appear and click.	
