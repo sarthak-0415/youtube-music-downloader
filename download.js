@@ -6,10 +6,13 @@ chrome.runtime.onMessage.addListener(
 			$('[name="input"]').submit();
 			//while(!$('[name="dlbutton"]').length)
 			
+			console.log('in page');
+			check();
 			function check(){
-				if($('[name="dlbutton"]').length)
+				if(document.getElementsByName("dlbutton"))
 				{
-					$('[name="dlbutton"]').submit();
+					alert('in there');
+					document.getElementsByName("dlbutton")[0].submit();
 				}
 				setInterval(function(){check();},2000);
 			}
