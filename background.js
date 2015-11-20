@@ -14,7 +14,7 @@ chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
     	if( request.message === "current_tab_url" ) {
     		
     		var url = request.url;
-    		var download_site_url = "http://save-mp3.com/";
+    		var download_site_url = "http://www.youtube-mp3.org/";
     	  	
     	  	chrome.tabs.create({url: download_site_url,active: true}, function(tab){
     	  		
